@@ -1,0 +1,38 @@
+.cards {
+    margin: 0 auto 150px;
+}
+
+.cards__txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #0082FE;
+    text-align: center;
+    margin: 0 0 6px;
+    padding: 0;
+}
+
+.cards__title {
+    max-width: 290px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #323358;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cards__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 270px);
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
