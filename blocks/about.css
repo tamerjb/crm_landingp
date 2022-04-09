@@ -1,0 +1,110 @@
+.about {
+    max-width: 1168px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about__content {
+    max-width: 570px;
+    margin: 0;
+}
+
+.about-txt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #0082FE;
+    margin: 0;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #323358;
+    margin: 6px 0 20px 0;
+}
+
+.about__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #717FA5;
+    max-width: 570px;
+    margin: 0 0 30px;
+}
+
+.about__button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0082FE;
+    border: 1px solid #0082FE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 13px 30px;
+}
+
+.about__button:hover {
+    transition: .5s linear;
+    transform: scale(1.25);
+}
+
+.about__ideas {
+    background-color: red;
+    min-width: 476px;
+    background-image: url(../images/);
+    border: 1px dashed #717FA5;
+}
+
+.about__ideas-first {
+    max-width: 363px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: #FFFFFF;
+    border: 1px solid #F2F4FF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(82, 64, 137, 0.05);
+    border-radius: 10px;
+}
+
+.about__ideas-second {
+    max-width: 363px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 1px solid #F2F4FF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(82, 64, 137, 0.05);
+    border-radius: 10px;
+}
+
+.about__ideas-third {
+    max-width: 363px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 1px solid #F2F4FF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(82, 64, 137, 0.05);
+    border-radius: 10px;
+}
+
+.about__ideas__img {
+    max-width: 54px;
+    max-height: 54px;
+}
+
+.about__ideas-title {}
+
+.about__ideas-subtitle {}
