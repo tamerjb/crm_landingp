@@ -33,6 +33,7 @@
 .nav__menu-item:hover {
     color:
         #2F80ED;
+    text-decoration: dotted;
 }
 
 .nav__menu-item_button {

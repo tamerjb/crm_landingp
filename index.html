@@ -21,10 +21,10 @@
             <img src="./images/LOGO.svg" alt="Logo" class="header__logo">
             <ul class="nav__menu">
                 <li><a class="nav__menu-item" href="">Home</a> </li>
-                <li><a href="" class="nav__menu-item">About us</a> </li>
-                <li><a href="" class="nav__menu-item">Prouducts</a></li>
-                <li><a href="" class="nav__menu-item">Blog</a></li>
-                <li><a href="" class="nav__menu-item">Contact us</a></li>
+                <li><a href="#" class="nav__menu-item">About us</a> </li>
+                <li><a href="#" class="nav__menu-item">Prouducts</a></li>
+                <li><a href="#" class="nav__menu-item">Blog</a></li>
+                <li><a href="#" class="nav__menu-item">Contact us</a></li>
                 <li><button class="nav__menu-item_button">Create Account</button></li>
             </ul>
         </div>
@@ -129,14 +129,43 @@
             </div>
 
             <div class="about__ideas">
+
+                <!-- <img src="./images/rectangle.png" alt="rectangle" class="about__ideas-BG"> -->
                 <div class="about__ideas-first">
                     <img src="./images/idea1.png" alt="idea" class="about__ideas__img">
-                    <p class="about__ideas-title">Innovative Ideas</p>
-                    <p class="about__ideas-subtitle">Because each project is different, we adapt to your business
-                        model.
-                    </p>
+
+                    <div class="test">
+                        <p class="about__ideas-title">Innovative Ideas</p>
+                        <p class="about__ideas-subtitle">Because each project is different, we adapt to your
+                            business
+                            model.
+                        </p>
+                    </div>
                 </div>
+
                 <div class="about__ideas-second">
+                    <img src="./images/idea2.png" alt="idea" class="about__ideas__img">
+
+                    <div class="test">
+                        <p class="about__ideas-title">Innovative Ideas</p>
+                        <p class="about__ideas-subtitle">Because each project is different, we adapt to your
+                            business
+                            model.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__ideas-third">
+                    <img src="./images/idea1.png" alt="idea" class="about__ideas__img">
+
+                    <div class="test">
+                        <p class="about__ideas-title">Innovative Ideas</p>
+                        <p class="about__ideas-subtitle">Because each project is different, we adapt to your
+                            business
+                            model.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="about__ideas-second">
                     <img src="./images/idea2.png" alt="idea" class="about__ideas__img">
                     <p class="about__ideas-title">Innovative Ideas</p>
                     <p class="about__ideas-subtitle">Because each project is different, we adapt to your business
@@ -149,9 +178,9 @@
                     <p class="about__ideas-subtitle">Because each project is different, we adapt to your business
                         model.
                     </p>
-                </div>
-            </div>
+                </div> -->
 
+            </div>
 
         </section>
         <section class="portfolio">
@@ -164,40 +193,57 @@
                 <li><a href="#" class="portfolio__nav-item">analytics</a></li>
                 <li><a href="#" class="portfolio__nav-item">organization</a></li>
             </ul>
-            <div class="portfolio__card">
-                <img src="" alt="" class="portfolio__card-img">
-                <h3 class="portfolio__card-title">social media</h3>
-                <p class="portfolio__card-subtitle">You’re trying to save for a down payment, or simply grow your rainy
-                    day fund.</p>
-            </div>
-            <div class="portfolio__card">
-                <img src="" alt="" class="portfolio__card-img">
-                <h3 class="portfolio__card-title">analytics</h3>
-                <p class="portfolio__card-subtitle">You’re trying to save for a down payment, or simply grow your rainy
-                    day fund.
-                </p>
-            </div>
-            <div class="portfolio__card">
-                <img src="" alt="" class="portfolio__card-img">
-                <h3 class="portfolio__card-title">Payments</h3>
-                <p class="portfolio__card-subtitle">You’re trying to save for a down payment, or simply grow your rainy
-                    day fund.
-                </p>
+            <div class="protfolio__cards">
+                <div class="portfolio__card">
+                    <img src="./images/socialm.png" alt="social" class="portfolio__card-img">
+                    <div class="portfolio__card__content">
+                        <h3 class="portfolio__card-title">social media</h3>
+                        <p class="portfolio__card-subtitle">You’re trying to save for a down payment, or simply grow
+                            your
+                            rainy
+                            day fund.</p>
+                    </div>
+                </div>
+                <div class="portfolio__card">
+                    <img src="./images/analytics.png" alt="analytics" class="portfolio__card-img">
+                    <div class="portfolio__card__content">
+                        <h3 class="portfolio__card-title">analytics</h3>
+                        <p class="portfolio__card-subtitle">You’re trying to save for a down payment, or simply grow
+                            your
+                            rainy
+                            day fund.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio__card">
+                    <img src="./images/thump.png" alt="thump" class="portfolio__card-img">
+                    <div class="portfolio__card__content">
+                        <h3 class="portfolio__card-title">Payments</h3>
+                        <p class="portfolio__card-subtitle">You’re trying to save for a down payment, or simply grow
+                            your
+                            rainy
+                            day fund.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="contact">
-            <form class="contact__form">
-                <h3>Get in Touch</h3>
-                <fieldset class="contact__form__fieldset">
-                    <input type="email" class="form__input" id="email" name="email" required
-                        placeholder="email@email.com" />
-                    <textarea placeholder="Enter Your Message" required name="message"></textarea>
+            <div class="contact__form-wrapper">
+                <form class="contact__form">
+                    <h3 class="contact__title">Get in Touch</h3>
+                    <fieldset class="contact__form__fieldset">
+                        <input type="email" class="contact__form__input" id="email" name="email" required
+                            placeholder="Email" />
+                        <textarea class="contact__form__input-txt" placeholder="Enter Your Message" required
+                            name="message"></textarea>
 
-                </fieldset>
-                <fieldset class="contact__form__fieldset">
-                    <button type="submit" class="contact__form__button">Send Request</button>
-                </fieldset>
-            </form>
+                    </fieldset>
+                    <fieldset class="contact__form__fieldset">
+                        <button type="submit" class="contact__form__button">Send Request</button>
+                    </fieldset>
+                </form>
+            </div>
             <div class="contact__info">
                 <p class="contact__info-txt">contact</p>
                 <h2 class="contact__info-title">Don’t hesitate to choose Us?</h2>
@@ -205,24 +251,30 @@
                     using one simple CRM solution.</p>
                 <ul class="contact__info__address">
                     <li class=" contact__info__address-item">
-                        <a href="#" class="contact__info__address-link"><img src="" alt="icon"
-                                class="contact__info__address-icon">logodholiya@gmail.com</a>
+                        <a href="#" class="contact__info__address-icon"><img src="./images/email.png" alt="icon"
+                                class="contact__info__address-link">logodholiya@gmail.com</a>
                     </li>
                     <li class=" contact__info__address-item">
-                        <a href="#" class="contact__info__address-link"><img src="" alt="icon"
-                                class="contact__info__address-icon">enter your message</a>
+                        <a href="#" class="contact__info__address-icon"><img src="./images/phone.png" alt="icon"
+                                class="contact__info__address-link">enter your message</a>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="meeting">
-            <p class="meeting-txt">Schedule Meeting</p>
-            <h2 class="meeting-title">Interested to work with Us?</h2>
             <div class="meeting__options">
-                <button class="meeting__button_schedule">Schedule meeting</button>
-                <p class="meeting__button-separator">Or</p>
-                <button class="meeting__button_call">Call Now</button>
+                <p class="meeting-txt">Schedule Meeting</p>
+                <h2 class="meeting-title">Interested to work with Us?</h2>
+                <div class="test10">
+                    <button class="meeting__button_schedule">Schedule meeting</button>
+                    <p class="meeting__button-separator">Or</p>
+                    <button class="meeting__button_call">Call Now</button>
+                </div>
 
+
+            </div>
+            <div class="meeting__img">
+                <img src="./images/person.png" alt="human">
             </div>
         </section>
 
@@ -230,7 +282,7 @@
     <footer class="footer">
         <div class="footer__elements">
             <div class="footer__company">
-                <img src="" alt="" class="footer__logo">
+                <img src="./images/LOGO.svg" alt="" class="footer__logo">
                 <p class="footer__company-txt">Automate your marketing, convert more leads, and recruit new partners
                     using one simple CRM solution.</p>
             </div>
@@ -240,45 +292,56 @@
                     Quick link
                 </h4>
                 <ul class="footer__list">
-                    <li class="footer__list-item">Home</li>
-                    <li class="footer__list-item">Services</li>
-                    <li class="footer__list-item">About</li>
-                    <li class="footer__list-item">Case Studies</li>
-                    <li class="footer__list-item">Get in Touch</li>
+                    <li><a href="" class="footer__list-item">Home</a>
+                    </li>
+                    <li><a href="" class="footer__list-item">Services</a>
+                    </li>
+                    <li><a href="" class="footer__list-item">About</a>
+                    </li>
+                    <li><a href="" class="footer__list-item">Case Studies</a>
+                    </li>
+                    <li><a href="" class="footer__list-item">Get in Touch</a></li>
                 </ul>
             </div>
             <div class="footer__item">
                 <h4 class="footer__item-title"> Resources </h4>
                 <ul class="footer__list">
-                    <li class="footer__list-item">Privacy </li>
-                    <li class="footer__list-item">Terms & Condition</li>
-                    <li class="footer__list-item">Security</li>
+                    <li> <a href="" class="footer__list-item">Privacy</a>
+                    </li>
+                    <li><a href="" class="footer__list-item">Terms & Condition</a></li>
+                    <li><a href="" class="footer__list-item">Security</a></li>
                 </ul>
             </div>
             <div class="footer__item">
                 <h4 class="footer__item-title"> Contacts Us </h4>
-                <form name="footer_form">
-                    <input placeholder="Enter Email..." type="text" name="email">
-                    <input type="submit" value="Submit">
+                <form name="footer__form">
+
+                    <fieldset class="footer__form__fieldset">
+                        <div class="wrap">
+                            <input class="footer__form-input" placeholder="Enter Email..." type="text" name="email">
+                            <button class="footer__form_button" type="submit">Send</button>
+                        </div>
                 </form>
+                </fieldset>
 
                 <div class="footer__social">
                     <a href="#" class="footer__social-link">
-                        <img src="./images/facebook.png" alt="" class="footer__social-img"></a>
+                        <img src="./images/facebook.png" alt="facebook" class="footer__social-img"></a>
 
                     <a href="#" class="footer__social-link">
-                        <img src="./images/insta.png" alt="" class="footer__social-img">
+                        <img src="./images/insta.png" alt="instagram" class="footer__social-img">
                     </a>
                     <a href="#" class="footer__social-link">
-                        <img src="./images/twitter.png" alt="" class="footer__social-img">
+                        <img src="./images/twitter.png" alt="twitter" class="footer__social-img">
                     </a>
                     <a href="#" class="footer__social-link">
-                        <img src="./images/p.png" alt="" class="footer__social-img">
+                        <img src="./images/p.png" alt="pinterest" class="footer__social-img">
                     </a>
                 </div>
 
             </div>
         </div>
+        <p class="footer__rights">All the rights are reserved</p>
     </footer>
     <script src="./scripts/index.js"></script>
 </body>
