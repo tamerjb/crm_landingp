@@ -15,16 +15,16 @@
 </head>
 
 <body class="body">
-    <header class="header">
+    <header class="header" id="home">
 
         <div class="nav">
             <img src="./images/LOGO.svg" alt="Logo" class="header__logo">
             <ul class="nav__menu">
-                <li><a class="nav__menu-item" href="">Home</a> </li>
-                <li><a href="#" class="nav__menu-item">About us</a> </li>
-                <li><a href="#" class="nav__menu-item">Prouducts</a></li>
-                <li><a href="#" class="nav__menu-item">Blog</a></li>
-                <li><a href="#" class="nav__menu-item">Contact us</a></li>
+                <li><a href="#home" class="nav__menu-item">Home</a> </li>
+                <li><a href="#about" class="nav__menu-item">About us</a> </li>
+                <li><a href="#services" class="nav__menu-item">Prouducts</a></li>
+                <li><a href="#portfolio" class="nav__menu-item">Blog</a></li>
+                <li><a href="#contact" class="nav__menu-item">Contact us</a></li>
                 <li><button class="nav__menu-item_button">Create Account</button></li>
             </ul>
         </div>
@@ -35,13 +35,13 @@
                 <p class="intro__subtitle">Automate your marketing, convert more leads, and recruit new partners using
                     one
                     simple CRM solution.</p>
-                <button class="intro_button">Create Account</button>
+                <button class="intro__button">Create Account</button>
             </div>
-            <img src="./images/laptop.png" alt="Macbook laptop" class="intro__imgs-laptop">
+            <img src="./images/laptop.svg" alt="Macbook laptop" class="intro__imgs-laptop">
 
 
         </section>
-        <section class="cards">
+        <section class="cards" id="services">
 
             <p class="cards__txt">services</p>
             <h2 class="cards__title">What we do</h2>
@@ -118,7 +118,7 @@
 
     </header>
     <main class="main">
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__content">
                 <p class="about-txt">About Us</p>
                 <h2 class="about__title">Why you should choose Us?</h2>
@@ -130,11 +130,10 @@
 
             <div class="about__ideas">
 
-                <!-- <img src="./images/rectangle.png" alt="rectangle" class="about__ideas-BG"> -->
                 <div class="about__ideas-first">
                     <img src="./images/idea1.png" alt="idea" class="about__ideas__img">
 
-                    <div class="test">
+                    <div class="about__ideas__card">
                         <p class="about__ideas-title">Innovative Ideas</p>
                         <p class="about__ideas-subtitle">Because each project is different, we adapt to your
                             business
@@ -146,7 +145,7 @@
                 <div class="about__ideas-second">
                     <img src="./images/idea2.png" alt="idea" class="about__ideas__img">
 
-                    <div class="test">
+                    <div class="about__ideas__card">
                         <p class="about__ideas-title">Innovative Ideas</p>
                         <p class="about__ideas-subtitle">Because each project is different, we adapt to your
                             business
@@ -157,7 +156,7 @@
                 <div class="about__ideas-third">
                     <img src="./images/idea1.png" alt="idea" class="about__ideas__img">
 
-                    <div class="test">
+                    <div class="about__ideas__card">
                         <p class="about__ideas-title">Innovative Ideas</p>
                         <p class="about__ideas-subtitle">Because each project is different, we adapt to your
                             business
@@ -165,25 +164,11 @@
                         </p>
                     </div>
                 </div>
-                <!-- <div class="about__ideas-second">
-                    <img src="./images/idea2.png" alt="idea" class="about__ideas__img">
-                    <p class="about__ideas-title">Innovative Ideas</p>
-                    <p class="about__ideas-subtitle">Because each project is different, we adapt to your business
-                        model.
-                    </p>
-                </div>
-                <div class="about__ideas-third">
-                    <img src="./images/idea1.png" alt="idea" class="about__ideas__img">
-                    <p class="about__ideas-title">Innovative Ideas</p>
-                    <p class="about__ideas-subtitle">Because each project is different, we adapt to your business
-                        model.
-                    </p>
-                </div> -->
 
             </div>
 
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <p class="portfolio-txt">portfolio</p>
             <h2 class="portfolio__title">case studies</h2>
             <ul class="portfolio__nav">
@@ -228,7 +213,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="contact__form-wrapper">
                 <form class="contact__form">
                     <h3 class="contact__title">Get in Touch</h3>
@@ -265,7 +250,7 @@
             <div class="meeting__options">
                 <p class="meeting-txt">Schedule Meeting</p>
                 <h2 class="meeting-title">Interested to work with Us?</h2>
-                <div class="test10">
+                <div class="meeting__button-wrapper">
                     <button class="meeting__button_schedule">Schedule meeting</button>
                     <p class="meeting__button-separator">Or</p>
                     <button class="meeting__button_call">Call Now</button>
@@ -292,24 +277,24 @@
                     Quick link
                 </h4>
                 <ul class="footer__list">
-                    <li><a href="" class="footer__list-item">Home</a>
+                    <li><a href="#home" class="footer__list-item">Home</a>
                     </li>
-                    <li><a href="" class="footer__list-item">Services</a>
+                    <li><a href="#services" class="footer__list-item">Services</a>
                     </li>
-                    <li><a href="" class="footer__list-item">About</a>
+                    <li><a href="#about" class="footer__list-item">About</a>
                     </li>
-                    <li><a href="" class="footer__list-item">Case Studies</a>
+                    <li><a href="#portfolio" class="footer__list-item">Case Studies</a>
                     </li>
-                    <li><a href="" class="footer__list-item">Get in Touch</a></li>
+                    <li><a href="#contact" class="footer__list-item">Get in Touch</a></li>
                 </ul>
             </div>
             <div class="footer__item">
                 <h4 class="footer__item-title"> Resources </h4>
                 <ul class="footer__list">
-                    <li> <a href="" class="footer__list-item">Privacy</a>
+                    <li> <a href="#" class="footer__list-item">Privacy</a>
                     </li>
-                    <li><a href="" class="footer__list-item">Terms & Condition</a></li>
-                    <li><a href="" class="footer__list-item">Security</a></li>
+                    <li><a href="#" class="footer__list-item">Terms & Condition</a></li>
+                    <li><a href="#" class="footer__list-item">Security</a></li>
                 </ul>
             </div>
             <div class="footer__item">
@@ -317,7 +302,7 @@
                 <form name="footer__form">
 
                     <fieldset class="footer__form__fieldset">
-                        <div class="wrap">
+                        <div class="footer__wraper">
                             <input class="footer__form-input" placeholder="Enter Email..." type="text" name="email">
                             <button class="footer__form_button" type="submit">Send</button>
                         </div>
@@ -335,7 +320,7 @@
                         <img src="./images/twitter.png" alt="twitter" class="footer__social-img">
                     </a>
                     <a href="#" class="footer__social-link">
-                        <img src="./images/p.png" alt="pinterest" class="footer__social-img">
+                        <img src="./images/pinterest.png" alt="pinterest" class="footer__social-img">
                     </a>
                 </div>
 

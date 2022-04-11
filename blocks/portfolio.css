@@ -26,6 +26,7 @@
 
 .portfolio__nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
     margin: 0;
@@ -54,10 +55,11 @@
 
 .protfolio__cards {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 36px;
+    gap: 30px;
     margin: 41px 0 150px 0;
-    max-width: 100%;
+    width: 100%;
 }
 
 .portfolio__card__content {

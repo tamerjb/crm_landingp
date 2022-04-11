@@ -1,5 +1,7 @@
 .nav {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
     margin: 30px auto 125px;
@@ -9,6 +11,7 @@
 
 .nav__menu {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
     margin: 0;

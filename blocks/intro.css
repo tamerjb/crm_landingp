@@ -38,7 +38,7 @@
     color: #717FA5;
 }
 
-.intro_button {
+.intro__button {
     background: #0082FE;
     border-radius: 10px;
     padding: 13px 30px;
@@ -52,8 +52,21 @@
 
 }
 
+.intro__button:hover {
+    transition: .5s linear;
+    transform: scale(1.25);
+}
+
 .intro__imgs-laptop {
     max-width: 805px;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width:1000px) {
+
+    .intro__imgs-laptop {
+        max-width: 300px;
+        max-height: 300px;
+    }
 }

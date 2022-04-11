@@ -5,6 +5,7 @@
 
 .footer__elements {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     max-width: 1170px;
     margin: 0 auto;
@@ -15,9 +16,15 @@
     border-bottom: 1px solid #EBF1FF;
 }
 
-.footer__company {}
+.footer__company {
+    margin: 0;
+    padding: 0;
+}
 
-.footer__logo {}
+.footer__logo {
+    margin: 0;
+    max-width: 73px;
+}
 
 .footer__company-txt {
     max-width: 370px;
@@ -27,7 +34,9 @@
     color: #717FA5;
 }
 
-.footer__item {}
+.footer__item {
+    margin: 0;
+}
 
 .footer__item-title {
     font-weight: 500;
@@ -51,8 +60,6 @@
     padding: 0;
 }
 
-.footer__item {}
-
 .footer__form {
     margin: 0;
     padding: 0;
@@ -68,12 +75,25 @@
 .footer__form-input {
     background-color: #EBF1FF;
     border-radius: 10px;
-    /* padding: 16px; */
     margin: 0;
     border: none;
     height: 50px;
-    padding: 0;
+    padding: 0 15px;
     width: 268px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #717FA5;
+
+    outline: none;
+
+}
+
+.footer__form-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #717FA5;
 }
 
 .footer__form_button {
@@ -89,7 +109,7 @@
     border: none;
     position: absolute;
     top: 0;
-    right: -90px;
+    right: -95px;
     height: 50px;
 }
 
@@ -131,6 +151,6 @@
     margin: 28px auto 0 0;
 }
 
-.wrap {
+.footer__wraper {
     position: relative;
 }
