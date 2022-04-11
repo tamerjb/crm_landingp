@@ -1,0 +1,98 @@
+.portfolio {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.portfolio-txt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #0082FE;
+    text-align: center;
+}
+
+.portfolio__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: #323358;
+    text-align: center;
+    margin: 0;
+}
+
+
+.portfolio__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    gap: 85px;
+    padding: 0;
+    border-bottom: 1px solid #EBF1FF;
+}
+
+.portfolio__nav-item {
+    color: #717FA5;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #717FA5;
+    transition: .4s ease-in;
+    padding: 0;
+}
+
+.portfolio__nav-item:hover {
+    color: #2F80ED;
+    transition: .5s linear;
+    text-decoration: underline;
+}
+
+.protfolio__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    margin: 41px 0 150px 0;
+    width: 100%;
+}
+
+.portfolio__card__content {
+    max-width: 315px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.portfolio__card {
+    max-width: 442px;
+    margin: 0;
+}
+
+
+
+.portfolio__card-img {
+    max-width: 370px;
+}
+
+.portfolio__card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #323358;
+    margin: 0;
+}
+
+.portfolio__card-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #717FA5;
+    max-width: 315px;
+    margin: 0;
+}

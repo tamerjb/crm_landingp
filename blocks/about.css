@@ -1,0 +1,149 @@
+.about {
+    max-width: 1168px;
+    min-height: 449px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-bottom: 150px;
+}
+
+.about__content {
+    max-width: 570px;
+    margin: 0;
+}
+
+.about-txt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #0082FE;
+    margin: 0;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #323358;
+    margin: 6px 0 20px 0;
+}
+
+.about__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #717FA5;
+    min-width: 570px;
+    margin: 0 0 30px;
+}
+
+.about__button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0082FE;
+    border: 1px solid #0082FE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 13px 30px;
+}
+
+.about__button:hover {
+    transition: .5s linear;
+    transform: scale(1.25);
+}
+
+
+
+.about__ideas {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    min-width: 563px;
+
+    background-image: url(../images/rectangle.svg);
+    background-size: 476px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.about__ideas-first {
+    max-width: 363px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F2F4FF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(82, 64, 137, 0.05);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.about__ideas-second {
+    min-width: 363px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F2F4FF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(82, 64, 137, 0.05);
+    border-radius: 10px;
+    align-self: center;
+}
+
+.about__ideas-third {
+    min-width: 363px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F2F4FF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(82, 64, 137, 0.05);
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+
+
+.about__ideas__img {
+    width: 54px;
+    height: 54px;
+    margin: 20px 15px;
+}
+
+.about__ideas__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__ideas-title {
+    max-width: 119px;
+    margin: 20px 0 1px 0;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #323358;
+}
+
+.about__ideas-subtitle {
+    max-width: 264px;
+    margin: 0 15px 20px 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #717FA5;
+}

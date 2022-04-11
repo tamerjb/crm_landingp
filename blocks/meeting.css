@@ -1,0 +1,88 @@
+.meeting {
+    max-width: 1170px;
+    max-height: 450px;
+    margin: 0 auto 150px;
+    background-image: url(../images/mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EBF1FF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 78px;
+    overflow: visible;
+}
+
+.meeting-txt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #0082FE;
+    margin: 0;
+}
+
+.meeting-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #323358;
+    max-width: 100%;
+    margin: 0 0 30px 0;
+}
+
+.meeting__options {
+    max-width: 470px;
+    align-self: center;
+    margin-left: 100px;
+    flex-direction: row;
+}
+
+.meeting__img {
+    max-width: 427px;
+    max-height: 511px;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    position: relative;
+}
+
+.meeting__button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.meeting__button_schedule {
+    border: 1px solid #0082FE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    text-transform: capitalize;
+    color: #0082FE;
+    background-color: #EBF1FF;
+    padding: 13px 16px;
+}
+
+.meeting__button-separator {
+    margin: 0 20px;
+}
+
+.meeting__button_call {
+    border-radius: 10px;
+    border: 1px solid #0082FE;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #0082FE;
+    padding: 13px 30px;
+}
