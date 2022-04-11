@@ -44,9 +44,27 @@
     min-width: 188px;
     min-height: 50px;
     color: #0082FE;
+    background-color: #fff;
 }
 
 .nav__menu-item_button:hover {
     transition: .5s linear;
     transform: scale(1.25);
+}
+
+@media screen and (max-width:768px) {
+    .nav {
+        max-width: 700px;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .nav__menu {
+        gap: 30px;
+    }
+
+    .nav__menu-item_button {
+        width: 50px;
+    }
 }

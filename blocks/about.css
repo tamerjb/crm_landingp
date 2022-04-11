@@ -52,6 +52,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     padding: 13px 30px;
+    background-color: #fff;
 }
 
 .about__button:hover {
@@ -70,6 +71,12 @@
     background-size: 476px 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.about__ideas__card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .about__ideas-first {
@@ -114,10 +121,6 @@
     margin: 20px 15px;
 }
 
-.about__ideas__card {
-    display: flex;
-    flex-direction: column;
-}
 
 .about__ideas-title {
     max-width: 119px;
