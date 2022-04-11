@@ -59,24 +59,18 @@
     transform: scale(1.25);
 }
 
-
-
 .about__ideas {
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
     position: relative;
     min-width: 563px;
-
     background-image: url(../images/rectangle.svg);
     background-size: 476px 100%;
     background-repeat: no-repeat;
     background-position: center;
-
 }
-
 
 .about__ideas-first {
     max-width: 363px;
@@ -114,8 +108,6 @@
     align-self: flex-end;
 }
 
-
-
 .about__ideas__img {
     width: 54px;
     height: 54px;
@@ -130,7 +122,6 @@
 .about__ideas-title {
     max-width: 119px;
     margin: 20px 0 1px 0;
-
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;

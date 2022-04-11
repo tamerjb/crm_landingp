@@ -49,7 +49,6 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
-
 }
 
 .intro__button:hover {
@@ -61,12 +60,4 @@
     max-width: 805px;
     margin: 0;
     padding: 0;
-}
-
-@media screen and (max-width:1000px) {
-
-    .intro__imgs-laptop {
-        max-width: 300px;
-        max-height: 300px;
-    }
 }

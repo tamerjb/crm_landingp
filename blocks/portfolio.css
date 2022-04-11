@@ -23,7 +23,6 @@
     margin: 0;
 }
 
-
 .portfolio__nav {
     display: flex;
     flex-wrap: wrap;
@@ -72,8 +71,6 @@
     max-width: 442px;
     margin: 0;
 }
-
-
 
 .portfolio__card-img {
     max-width: 370px;

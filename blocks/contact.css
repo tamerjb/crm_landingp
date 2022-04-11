@@ -12,7 +12,6 @@
     min-width: 512px;
     min-height: 483px;
     border-radius: 0 170px;
-
 }
 
 .contact__form {
@@ -25,7 +24,6 @@
     align-items: flex-start;
     border-radius: 0 30px;
     padding: 31px 27px;
-
 }
 
 .contact__title {
@@ -45,7 +43,6 @@
     margin: 0;
     padding: 0;
     background-color: #0082FE;
-
 }
 
 .contact__form__input {
@@ -62,8 +59,6 @@
     line-height: 36px;
     outline: none;
     color: #fff;
-
-
 }
 
 .contact__form__input::placeholder {
@@ -76,7 +71,6 @@
     background-image: url(../images/mail.png);
     background-repeat: no-repeat;
     background-position: left;
-
 }
 
 .contact__form__input-txt {
@@ -89,7 +83,6 @@
     padding: 0;
     padding-left: 10px;
     outline: none;
-
     font-weight: 300;
     font-size: 14px;
     line-height: 36px;
@@ -108,7 +101,6 @@
     background-image: url(../images/msg.png);
     background-repeat: no-repeat;
     background-position: left;
-
 }
 
 .contact__info-txt {
@@ -120,8 +112,6 @@
     color: #0082FE;
     margin: 0;
 }
-
-
 
 .contact__form__button {
     background-color: #FFFFFF;
@@ -141,13 +131,10 @@
     max-width: 570px;
 }
 
-
-
 .contact__info-title {
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
-
     color: #323358;
     margin: 6px 0 20px 0;
 }
@@ -169,15 +156,12 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-
 }
-
 
 .contact__info__address-link {
     text-decoration: none;
     padding: 0;
     margin: 0 19px 0 0;
-
 }
 
 .contact__info__address-icon {
