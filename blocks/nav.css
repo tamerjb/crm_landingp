@@ -1,6 +1,5 @@
 .nav {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
@@ -41,7 +40,7 @@
 .nav__menu-item_button {
     border: 1px solid #0082FE;
     border-radius: 10px;
-    min-width: 188px;
+    max-width: 100%;
     min-height: 50px;
     color: #0082FE;
     background-color: #fff;
@@ -52,19 +51,20 @@
     transform: scale(1.25);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:802px) {
     .nav {
-        max-width: 700px;
-        margin: 0;
+        margin: 0 0 100px;
         padding: 0;
-        flex-direction: row;
+        max-width: 100%;
     }
 
     .nav__menu {
-        gap: 30px;
+        column-gap: 30px;
+        justify-content: center;
+        align-items: baseline;
     }
 
     .nav__menu-item_button {
-        width: 50px;
+        width: 100%;
     }
 }

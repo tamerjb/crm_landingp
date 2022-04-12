@@ -2,3 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
+.header__logo {
+    max-width: 75px;
+}

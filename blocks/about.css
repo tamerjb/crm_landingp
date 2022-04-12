@@ -3,13 +3,13 @@
     min-height: 449px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 35px;
     padding-bottom: 150px;
 }
 
 .about__content {
-    max-width: 570px;
+    max-width: 50%;
     margin: 0;
 }
 
@@ -29,6 +29,7 @@
     line-height: 72px;
     color: #323358;
     margin: 6px 0 20px 0;
+    max-width: 100%;
 }
 
 .about__subtitle {
@@ -37,8 +38,8 @@
     font-size: 18px;
     line-height: 36px;
     color: #717FA5;
-    min-width: 570px;
     margin: 0 0 30px;
+    max-width: 100%;
 }
 
 .about__button {
@@ -63,12 +64,12 @@
 .about__ideas {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 40px;
     position: relative;
-    min-width: 563px;
+    width: 50%;
     background-image: url(../images/rectangle.svg);
-    background-size: 476px 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -80,7 +81,7 @@
 }
 
 .about__ideas-first {
-    max-width: 363px;
+    max-width: 65%;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -92,7 +93,7 @@
 }
 
 .about__ideas-second {
-    min-width: 363px;
+    max-width: 65%;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -104,7 +105,7 @@
 }
 
 .about__ideas-third {
-    min-width: 363px;
+    max-width: 65%;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -123,7 +124,7 @@
 
 
 .about__ideas-title {
-    max-width: 119px;
+    max-width: 90%;
     margin: 20px 0 1px 0;
     font-weight: 600;
     font-size: 14px;
@@ -133,11 +134,20 @@
 }
 
 .about__ideas-subtitle {
-    max-width: 264px;
+    max-width: 90%;
     margin: 0 15px 20px 0;
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
     text-transform: capitalize;
     color: #717FA5;
+}
+
+@media screen and (max-width:1000px) {
+    .about {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
 }
