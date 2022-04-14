@@ -29,7 +29,7 @@
     line-height: 72px;
     color: #323358;
     margin: 6px 0 20px 0;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .about__subtitle {
@@ -39,7 +39,7 @@
     line-height: 36px;
     color: #717FA5;
     margin: 0 0 30px;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .about__button {
@@ -148,6 +148,30 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
+    }
+
+    .about__title {
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .about {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about__title {
+        padding: 0;
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .about__ideas {
+        flex-direction: row;
     }
 
 }

@@ -31,7 +31,7 @@
 }
 
 .intro__subtitle {
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 30px 30px 0;
     font-size: 18px;
     line-height: 36px;
@@ -63,38 +63,15 @@
 }
 
 .intro__imgs-laptop {
-    max-width: 100%;
+    max-width: 90%;
     padding: 0;
     margin: 0;
 }
 
-/*
-@media screen and (max-width:768px) {
-    .intro {
-        flex-direction: column;
+
+
+@media screen and (max-width:800px) {
+    .intro__title {
+        margin: 0;
     }
-
-    .intro__elemnt {
-        max-width: 300px;
-    }
-
-    .intro__imgs-laptop {
-        max-width: 300px;
-    }
-
-    @media screen and (max-width:320px) {
-        .intro__elemnt {
-            max-width: 150px;
-        }
-
-        .intro__title {
-            max-width: 30%;
-            font-size: 2rem;
-        }
-
-        .intro__img {
-            width: 50%;
-            overflow: scroll;
-        }
-    }
-} */
+}

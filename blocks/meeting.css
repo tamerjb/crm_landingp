@@ -28,7 +28,7 @@
     font-size: 48px;
     line-height: 72px;
     color: #323358;
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 0 30px 0;
 }
 
@@ -40,8 +40,8 @@
 }
 
 .meeting__img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     margin: 0;
     padding: 0;
     align-self: flex-end;
