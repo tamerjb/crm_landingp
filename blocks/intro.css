@@ -71,7 +71,22 @@
 
 
 @media screen and (max-width:800px) {
+    .intro {
+        justify-content: center;
+        max-width: 100%;
+    }
+
     .intro__title {
         margin: 0;
+        padding: 0;
+    }
+
+    .intro__subtitle {
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro__img {
+        display: none;
     }
 }

@@ -98,9 +98,14 @@
 }
 
 @media screen and (max-width:800px) {
+    .portfolio {
+        max-width: 90%;
+    }
+
     .portfolio__nav {
-        gap: 10px;
+        gap: 30px;
         margin: 0 auto;
     }
+
 
 }

@@ -1,5 +1,5 @@
 .meeting {
-    max-width: 1170px;
+    max-width: 80%;
     max-height: 450px;
     margin: 0 auto 150px;
     background-image: url(../images/mask.png);
@@ -32,7 +32,7 @@
     margin: 0 0 30px 0;
 }
 
-.meeting__options {
+.meeting__content {
     max-width: 470px;
     align-self: center;
     margin-left: 100px;
@@ -86,8 +86,20 @@
     padding: 13px 30px;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:800px) {
     .meeting {
-        overflow: hidden;
+        max-width: 80%;
+        max-height: 100%;
+        margin: 0 auto 50px;
+    }
+
+    .meeting__img {
+        display: none;
+    }
+
+    .meeting__content {
+        padding: 50px;
+        max-width: 90%;
+        margin: 0 auto;
     }
 }
