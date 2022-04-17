@@ -2,17 +2,17 @@
     max-width: 1141px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 211px;
 }
 
 .contact__form-wrapper {
     background-color: #EBF1FF;
-    width: 512px;
+    max-width: 70%;
+    padding: 16px 66px;
     border-radius: 0 170px;
-    overflow: visible;
     /* background-image: url(../images/rectangle2.png);
     max-width: 40%;
     background-repeat: no-repeat;
@@ -22,13 +22,10 @@
 }
 
 .contact__form {
-    max-width: 65%;
-    max-height: 90%;
+    width: 379px;
+    max-width: 80%;
     background-color: #0082FE;
     margin: 16px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     border-radius: 0 30px;
     padding: 31px 27px;
 }
@@ -45,23 +42,22 @@
 }
 
 .contact__form__fieldset {
-    width: 90%;
+    max-width: 90%;
     text-align: left;
     border: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #0082FE;
 }
 
 .contact__form__input {
-    width: 90%;
+    min-width: 100%;
     height: 60px;
     background-color: rgba(255, 255, 255, .14);
     border-radius: 10px;
     border: none;
     margin: 0;
     padding: 0;
-    padding-left: 10px;
     font-weight: 300;
     font-size: 14px;
     line-height: 36px;
@@ -83,13 +79,12 @@
 
 .contact__form__input-txt {
     margin-top: 30px;
-    width: 90%;
+    min-width: 100%;
     height: 162px;
     resize: none;
     border-radius: 10px;
     border: none;
     padding: 0;
-    padding-left: 10px;
     outline: none;
     font-weight: 300;
     font-size: 14px;
@@ -129,14 +124,16 @@
     line-height: 19px;
     text-transform: capitalize;
     color: #0082FE;
-    min-width: 90%;
+    min-width: 100%;
     height: 50px;
     border: 1px solid #0082FE;
     padding: 15px auto;
+
 }
 
 .contact__info {
-    max-width: 50%;
+    max-width: 40%;
+    margin: 0 auto;
 }
 
 .contact__info-title {
@@ -188,18 +185,37 @@
 @media screen and (max-width:800px) {
     .contact {
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-bottom: 50px;
+
+        padding-bottom: 75px;
+        max-width: 100%;
     }
 
     .contact__info-title {
         max-width: 100%;
         margin: 0 0 10px;
+        font-size: 1.7rem;
+        line-height: 3rem;
     }
 
     .contact__info-subtitle {
         margin: 0 0 10px;
+        font-size: 1rem;
+    }
+
+    .contact__info__address-icon {
+        font-size: 0.6rem;
+        line-height: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact__info__address-link {
+
+        margin: 0 5px;
+    }
+
+    .contact__form-wrapper {
+        padding: 8px 33px;
     }
 
 }

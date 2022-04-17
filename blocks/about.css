@@ -3,14 +3,14 @@
     min-height: 449px;
     margin: 0 auto;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 35px;
     padding-bottom: 150px;
 }
 
 .about__content {
-    max-width: 50%;
-    margin: 0;
+    max-width: 40%;
+    margin: 0 auto;
 }
 
 .about-txt {
@@ -64,25 +64,26 @@
 .about__ideas {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 40px;
-    position: relative;
+    width: 563px;
     max-width: 90%;
     background-image: url(../images/rectangle.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
 }
 
 .about__ideas__card {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    max-width: 100%;
+    flex-wrap: wrap;
+    max-width: 476px;
 }
 
 .about__ideas-first {
-    max-width: 65%;
+    max-width: 70%;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -94,7 +95,7 @@
 }
 
 .about__ideas-second {
-    max-width: 65%;
+    max-width: 70%;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -106,7 +107,7 @@
 }
 
 .about__ideas-third {
-    max-width: 65%;
+    max-width: 70%;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -149,13 +150,15 @@
         flex-wrap: wrap;
         padding: 0;
         justify-content: center;
-        margin: 0 auto 50px;
+        margin: 0 auto 75px;
     }
 
     .about__title {
         padding: 0;
         margin: 0;
         max-width: 90%;
+        font-size: 2rem;
+        line-height: 3rem;
     }
 
     .about__subtitle {

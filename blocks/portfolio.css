@@ -100,11 +100,16 @@
 @media screen and (max-width:800px) {
     .portfolio {
         max-width: 90%;
+        margin-bottom: 75px;
     }
 
     .portfolio__nav {
         gap: 30px;
         margin: 0 auto;
+    }
+
+    .portfolio__title {
+        font-size: 2rem;
     }
 
 
