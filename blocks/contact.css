@@ -219,3 +219,23 @@
     }
 
 }
+
+@media screen and (max-width:400px) {
+    .contact__info {
+        max-width: 100%;
+    }
+
+    .contact__info-title {
+        max-width: 100%;
+    }
+
+    .contact__form-wrapper {
+        max-width: 90%;
+        padding: 8px 15px;
+    }
+
+    .contact__form {
+        max-width: 90%;
+        padding: 15px 13px;
+    }
+}

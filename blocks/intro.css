@@ -82,6 +82,7 @@
         padding: 0;
         font-size: 2rem;
         line-height: 3rem;
+        max-width: 70%;
     }
 
     .intro__subtitle {
@@ -91,5 +92,29 @@
 
     .intro__img {
         display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .intro__welcome {
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    .intro__elemnt {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro__title {
+        margin: 10px;
+    }
+
+    .intro__subtitle {
+        margin: 0 auto;
+    }
+
+    .intro__button {
+        margin: 20px 20px;
     }
 }

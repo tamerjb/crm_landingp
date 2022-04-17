@@ -108,3 +108,18 @@
         padding: 20px;
     }
 }
+
+@media screen and (max-width:400px) {
+    .meeting {
+        max-width: 100%;
+    }
+
+    .meeting__content {
+        max-width: 100%;
+    }
+
+    .meeting__button-wrapper {
+        flex-direction: column;
+    }
+
+}

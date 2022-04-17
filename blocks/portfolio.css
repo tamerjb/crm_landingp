@@ -112,5 +112,9 @@
         font-size: 2rem;
     }
 
+    .protfolio__cards {
+        margin: 30px auto;
+    }
+
 
 }

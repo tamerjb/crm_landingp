@@ -171,8 +171,9 @@
 @media screen and (max-width:400px) {
     .about {
         flex-direction: column;
-        margin: 0;
+        margin: 0 auto 75px;
         padding: 0;
+        max-width: 100%;
     }
 
     .about__title {
@@ -182,7 +183,29 @@
     }
 
     .about__ideas {
-        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about__content {
+        max-width: 100%;
+    }
+
+    .about__title {
+        margin: 0 auto;
+    }
+
+    .about__subtitle {
+        margin: 0 0 10px 10px;
+        max-width: 100%;
+    }
+
+    .about__button {
+        margin: 0 0 0 10px;
+    }
+
+    .about-txt {
+        margin: 0 0 0 10px;
     }
 
 }

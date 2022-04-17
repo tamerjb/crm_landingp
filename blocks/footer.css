@@ -166,3 +166,23 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width:400px) {
+    .footer__elements {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .footer__company {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+
+
+
+    .footer__item {
+        max-width: 90%;
+    }
+
+}
