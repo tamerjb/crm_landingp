@@ -1,6 +1,7 @@
 .footer {
     margin: 0 auto;
     background-color: #fff;
+    max-width: 90%;
 }
 
 .footer__elements {

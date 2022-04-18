@@ -166,6 +166,14 @@
         max-width: 90%;
     }
 
+    .about__content {
+        max-width: 90%;
+    }
+
+    .about__ideas {
+        max-width: 90%;
+    }
+
 }
 
 @media screen and (max-width:400px) {
@@ -173,7 +181,7 @@
         flex-direction: column;
         margin: 0 auto 75px;
         padding: 0;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .about__title {
@@ -184,7 +192,7 @@
 
     .about__ideas {
         width: 100%;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .about__content {
