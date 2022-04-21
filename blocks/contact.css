@@ -10,8 +10,8 @@
 
 .contact__form-wrapper {
     background-color: #EBF1FF;
-    max-width: 70%;
-    padding: 16px 66px;
+    max-width: 60%;
+    padding: 16px 40px;
     border-radius: 0 170px;
     /* background-image: url(../images/rectangle2.png);
     max-width: 40%;
@@ -182,16 +182,15 @@
     color: #323358;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .contact {
         justify-content: center;
-
         padding-bottom: 75px;
         max-width: 100%;
     }
 
     .contact__info {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .contact__info-title {
@@ -224,6 +223,16 @@
 
 }
 
+@media screen and (max-width:600px) {
+    .contact__form {
+        width: 100%;
+    }
+
+    .contact__form-wrapper {
+        max-width: 90%;
+    }
+}
+
 @media screen and (max-width:400px) {
     .contact__info {
         max-width: 90%;
@@ -234,8 +243,7 @@
     }
 
     .contact__form-wrapper {
-        max-width: 90%;
-        padding: 8px 15px;
+        padding: 8px 30px;
     }
 
     .contact__form {

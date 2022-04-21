@@ -67,6 +67,13 @@
     color: #0082FE;
     background-color: #EBF1FF;
     padding: 13px 16px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.meeting__button_schedule:hover {
+    transition: .3s linear;
+    transform: scale(1.15);
 }
 
 .meeting__button-separator {
@@ -84,9 +91,16 @@
     color: #FFFFFF;
     background-color: #0082FE;
     padding: 13px 30px;
+    cursor: pointer;
+    transition: .3s linear;
 }
 
-@media screen and (max-width:800px) {
+.meeting__button_call:hover {
+    transition: .3s linear;
+    transform: scale(1.15);
+}
+
+@media screen and (max-width:900px) {
     .meeting {
         max-width: 80%;
         max-height: 100%;
