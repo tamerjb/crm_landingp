@@ -7,6 +7,7 @@
     padding: 0;
     max-width: 1170px;
     gap: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -67,10 +68,14 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width:870px) {
+@media screen and (max-width:912px) {
     .nav {
         justify-content: center;
     }
+
+}
+
+@media screen and (max-width:870px) {
 
     .nav__menu {
         column-gap: 30px;

@@ -128,7 +128,14 @@
     height: 50px;
     border: 1px solid #0082FE;
     padding: 15px auto;
+    transition: .3s linear;
+    cursor: pointer;
 
+}
+
+.contact__form__button:hover {
+    transition: .3s linear;
+    transform: scale(1.1);
 }
 
 .contact__info {

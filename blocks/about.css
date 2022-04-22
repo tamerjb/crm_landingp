@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     gap: 35px;
     padding-bottom: 150px;
+    justify-content: center;
 }
 
 .about__content {
@@ -144,6 +145,13 @@
     line-height: 15px;
     text-transform: capitalize;
     color: #717FA5;
+}
+
+@media screen and (max-width:990px) {
+    .about__content {
+        max-width: 90%;
+
+    }
 }
 
 @media screen and (max-width:800px) {

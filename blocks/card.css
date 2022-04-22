@@ -6,6 +6,12 @@
     align-items: center;
     box-shadow: 0px 5px 30px rgba(112, 106, 132, 0.1);
     border-radius: 10px;
+    transition: .3s linear;
+}
+
+.card:hover {
+    transition: .3s linear;
+    transform: scale(1.1);
 }
 
 .card__content {

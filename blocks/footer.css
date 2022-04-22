@@ -195,10 +195,10 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .footer__elements {
         max-width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .footer__company {
@@ -213,4 +213,20 @@
         max-width: 90%;
     }
 
+    .footer__social {
+        max-width: 90%;
+    }
+
+    .footer__form-input {
+        max-width: 70%;
+    }
+
+    .footer__social-link {
+        margin: 0;
+    }
+
+    .footer__form_button {
+        right: -45px;
+        padding: 15px;
+    }
 }
