@@ -83,9 +83,15 @@
 
 .footer__form__fieldset {
     border: none;
-    max-width: 90%;
+    width: 90%;
     padding: 0;
     margin: 0;
+}
+
+.footer__wraper {
+    position: relative;
+    max-width: 90%;
+    padding: 0;
 }
 
 .footer__form-input {
@@ -95,7 +101,7 @@
     border: none;
     height: 50px;
     padding: 0 15px;
-    width: 90%;
+    width: 100%;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
@@ -177,34 +183,35 @@
     margin: 28px auto 0 0;
 }
 
-.footer__wraper {
-    position: relative;
-    max-width: 370px;
-}
+
 
 @media screen and (max-width:900px) {
 
     .footer__elements {
         max-width: 90%;
         padding: 0 0 40px;
+        justify-content: space-evenly;
     }
 
     .footer__item {
         justify-content: center;
-        margin: 0 auto;
     }
 }
 
 @media screen and (max-width:500px) {
     .footer__elements {
         max-width: 100%;
-        justify-content: flex-start;
+        justify-content: space-evenly;
     }
 
     .footer__company {
         max-width: 100%;
         margin: 0 auto;
         padding-left: 10px;
+    }
+
+    .footer__wraper {
+        padding-bottom: 20px;
     }
 
 
@@ -214,19 +221,21 @@
     }
 
     .footer__social {
-        max-width: 90%;
+        width: 100%;
+        margin: 0;
     }
 
-    .footer__form-input {
-        max-width: 70%;
-    }
 
     .footer__social-link {
         margin: 0;
     }
 
+    .footer__form-input {
+        padding: 0 25px;
+    }
+
     .footer__form_button {
-        right: -45px;
+        right: -80px;
         padding: 15px;
     }
 }
