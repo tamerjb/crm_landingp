@@ -4,22 +4,14 @@
     font-weight: 400;
     line-height: 36px;
     font-size: 18px;
-    -webkit-text-size-adjust: 90%;
-    -ms-text-size-adjust: 90%;
-    -moz-text-size-adjust: 90%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     background-color: #fff;
     max-width: 1440px;
     margin: 0 auto;
-    overflow: auto;
-
-}
-
-@media screen and(max-width:960px) {
-    .body {
-        max-width: 960px;
-    }
 
 }

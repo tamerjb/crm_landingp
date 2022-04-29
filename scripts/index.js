@@ -1,16 +1,17 @@
-$('html').on('DOMMouseScroll mousewheel', function (e) {
-    if (e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) { //alternative options for wheelData: wheelDeltaX & wheelDeltaY
-        //scroll down
-        console.log('Down');
-        $("#header-nav").addClass("hide-nav-bar");
-    } else {
-        //scroll up
-        console.log('Up');
-        $("#header-nav").removeClass("hide-nav-bar");
-    }
-    //prevent page fom scrolling
-    //return false;
-
+$(document).ready(function () {
+    $('html').on('DOMMouseScroll mousewheel', function (e) {
+        if (e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) { //alternative options for wheelData: wheelDeltaX & wheelDeltaY
+            //scroll down
+            console.log('Down');
+            $("#header-nav").addClass("hide-nav-bar");
+        } else {
+            //scroll up
+            console.log('Up');
+            $("#header-nav").removeClass("hide-nav-bar");
+        }
+        //prevent page fom scrolling
+        //return false;
+    });
 
     // On click show menu on small screen
 
