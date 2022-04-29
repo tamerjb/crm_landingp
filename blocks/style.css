@@ -20,6 +20,7 @@ a:hover {
 	max-width: 1440px;
 	width: 100%;
 	background: transparent;
+	-webkit-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px);
 	-webkit-transition: -webkit-transform 0.7s .3s ease;
 	-moz-transition: -moz-transform 0.7s .3s ease;
