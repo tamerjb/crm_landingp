@@ -1,18 +1,19 @@
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #0082fe;
 }
 
 a:hover {
-	color: #fff;
+	color: #50a9fb;
 }
 
 #header-nav {
 	position: fixed;
 	top: 0;
 	display: block;
-	max-width: 100%;
-	background: black;
+	width: 100%;
+	max-width: 1410px;
+	background: transparent;
 	-webkit-transition: -webkit-transform 0.7s .3s ease;
 	-moz-transition: -moz-transform 0.7s .3s ease;
 	-ms-transition: -ms-transform 0.7s .3s ease;
