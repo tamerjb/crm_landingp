@@ -1,6 +1,6 @@
 .header {
     margin: 0 0;
-    padding: 70px 0 0 0;
+    padding: 150px 0 0 0;
     max-width: 100%;
 }
 
@@ -17,5 +17,10 @@
 @media screen and (max-width:700px) {
     .header__logo {
         margin: 0 auto;
+    }
+
+    .header {
+        padding: 100px 0 0 0;
+
     }
 }

@@ -2,7 +2,7 @@
     max-width: 1405px;
     display: flex;
     justify-content: flex-end;
-    margin: 150px auto 150px auto;
+    margin: 0 auto 150px auto;
 }
 
 .intro__elemnt {
@@ -75,7 +75,7 @@
     .intro {
         justify-content: center;
         max-width: 100%;
-        margin: 75px 0 75px;
+        margin: 0 0 75px;
     }
 
     .intro__elemnt {
