@@ -1,4 +1,4 @@
-/* .nav {
+.nav {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -52,6 +52,21 @@
     border-bottom: 1px solid #2F80ED;
 }
 
+.nav__menu-item_button {
+    border: 1px solid #0082FE;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 10px 30px;
+    min-height: 50px;
+    color: #0082FE;
+    background-color: #fff;
+    transition: .3s linear;
+}
+
+.nav__menu-item_button:hover {
+    transition: .3s linear;
+    transform: scale(1.1);
+}
 
 @media screen and (max-width:912px) {
     .nav {
@@ -117,4 +132,4 @@
         column-gap: 20px;
     }
 
-} */
+}
