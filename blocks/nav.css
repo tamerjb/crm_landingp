@@ -270,16 +270,16 @@ nav[role=navigation] li a {
     margin: 0 auto;
 }
 
-section {
+/* section {
     margin-top: 4em;
     padding: 1em;
     color: #5c5c5c;
-}
+} */
 
-section hr {
+/* section hr {
     border-bottom: none;
     color: #f2f2f2;
-}
+} */
 
 .info {
     text-align: center;
