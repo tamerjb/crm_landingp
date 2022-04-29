@@ -1,10 +1,21 @@
 a {
 	text-decoration: none;
-	color: #0082fe;
+	color: #717FA5;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
 }
 
 a:hover {
-	color: #50a9fb;
+	color: #2F80ED;
+	text-decoration: dotted;
+	transition: .3s linear;
+	transform: scale(1.2);
+	border-bottom: 1px solid #2F80ED;
 }
 
 #header-nav {
@@ -12,7 +23,7 @@ a:hover {
 	top: 0;
 	display: block;
 	width: 100%;
-	max-width: 1410px;
+	max-width: 1440px;
 	background: transparent;
 	-webkit-transition: -webkit-transform 0.7s .3s ease;
 	-moz-transition: -moz-transform 0.7s .3s ease;
@@ -20,6 +31,7 @@ a:hover {
 	transition: transform 0.7s .3s ease;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translate3d(0px, 0px, 0px);
+	backdrop-filter: blur(5px);
 }
 
 #header-nav.hide-nav-bar {
@@ -48,10 +60,12 @@ nav[role=navigation] {
 .js nav[role=navigation] {
 	overflow: hidden;
 	max-height: 0;
+
 }
 
 nav[role=navigation].active {
 	max-height: 15em;
+
 }
 
 nav[role=navigation] ul {
@@ -59,6 +73,7 @@ nav[role=navigation] ul {
 	padding: 0;
 	float: left;
 	padding: 0.7em 0;
+
 }
 
 nav[role=navigation] li a {
@@ -110,7 +125,26 @@ nav[role=navigation] li a {
 	font-size: 1.5em;
 }
 
-@media screen and (min-width: 48.25em) {
+.nav__menu-item_button {
+	border: 1px solid #0082FE;
+	border-radius: 10px;
+	max-width: 100%;
+	padding: 10px 30px;
+	min-height: 50px;
+	color: #0082FE;
+	background-color: #fff;
+	transition: .3s linear;
+}
+
+.nav__menu-item_button:hover {
+	transition: .3s linear;
+	transform: scale(1.0);
+}
+
+
+
+@media screen and (min-width: 800px) {
+
 	a.menu-link {
 		display: none;
 	}
@@ -136,7 +170,8 @@ nav[role=navigation] li a {
 }
 
 .container {
-	max-width: 72em;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 }
 
