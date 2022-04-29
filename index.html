@@ -17,7 +17,7 @@
 
 <body class="body">
     <header class="header" id="home">
-        <div class="nav">
+        <!-- <div class="nav">
             <a href="#home" class="header__logo"><img src="./images/LOGO.svg" alt="Logo"></a>
             <ul class="nav__menu">
                 <li class="nav__menu-item"><a href="#home" class="nav__menu-txt">Home</a> </li>
@@ -27,7 +27,38 @@
                 <li class="nav__menu-item"><a href="#contact" class="nav__menu-txt">Contact us</a></li>
                 <li><button class="nav__menu-item_button">Create Account</button></li>
             </ul>
+        </div> -->
+        <!-- /Menu-->
+        <div id="header-nav">
+            <div class="container">
+                <!-- H1 for SEO -->
+                <div class="brand">
+                    <a href="/">
+                        <h1>Ghostlab</h1>
+                    </a>
+                </div>
+                <!-- Small screen menu button -->
+                <a href="#menu" class="menu-link">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </a>
+                <!-- /Small screen menu button -->
+
+                <!-- Menu Items -->
+                <nav id="menu" role="navigation">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- /Menu Items -->
+            </div>
         </div>
+        <!-- /Menu -->
+
         <section class="intro">
             <div class="intro__elemnt">
                 <p class="intro__welcome">👋 Welcome to our profile</p>
