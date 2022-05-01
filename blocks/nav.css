@@ -146,7 +146,6 @@ a {
 
 a:hover {
     color: #2F80ED;
-    text-decoration: dotted;
     border-bottom: 1px solid #2F80ED;
 }
 
@@ -262,6 +261,7 @@ nav[role=navigation] li a {
     color: #0082FE;
     background-color: #fff;
     transition: .3s linear;
+    cursor: pointer;
 
 }
 

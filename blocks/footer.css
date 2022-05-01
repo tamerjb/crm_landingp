@@ -159,6 +159,10 @@
     margin: 0 20px 0 0;
 }
 
+.footer__social-link:hover {
+    border: none;
+}
+
 .footer__social-img {
     border: 1px solid #EBF1FF;
     border-radius: 10px;
