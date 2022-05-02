@@ -154,25 +154,22 @@ a:hover {
     display: block;
     max-width: 1440px;
     width: 100%;
-    -webkit-backdrop-filter: blur(15px);
+    transition: transform 0.7s .3s ease;
     backdrop-filter: blur(15px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-backdrop-filter: blur(15px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
     -webkit-transition: -webkit-transform 0.7s .3s ease;
     -moz-transition: -moz-transform 0.7s .3s ease;
     -ms-transition: -ms-transform 0.7s .3s ease;
-    transition: transform 0.7s .3s ease;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transform: translate3d(0px, 0px, 0px);
-    ;
-    -webkit-transform: translate3d(0px, 0px, 0px);
 }
 
 #header-nav.hide-nav-bar {
+    transform: translate(0, -100%);
+    backface-visibility: hidden;
     -webkit-transform: translate(0, -100%);
     -moz-transform: translate(0, -100%);
     -ms-transform: translate(0, -100%);
-    transform: translate(0, -100%);
-    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 
@@ -184,11 +181,11 @@ a.menu-link {
 
 nav[role=navigation] {
     clear: right;
+    transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
 }
 
 .js nav[role=navigation] {
@@ -227,8 +224,8 @@ nav[role=navigation] li a {
     width: 33px;
     height: 4px;
     position: absolute;
-    -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
 }
@@ -239,8 +236,8 @@ nav[role=navigation] li a {
 
 .bar3 {
     margin-top: 23px;
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
@@ -293,7 +290,7 @@ nav[role=navigation] li a {
     text-align: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     a.menu-link {
         display: none;
     }

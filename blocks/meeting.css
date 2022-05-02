@@ -11,6 +11,18 @@
     flex-direction: row;
     gap: 78px;
     overflow: visible;
+    z-index: -1;
+    position: relative;
+}
+
+.meeting__img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    position: relative;
+    z-index: -3;
 }
 
 .meeting-txt {
@@ -39,14 +51,7 @@
     flex-direction: row;
 }
 
-.meeting__img {
-    max-width: 90%;
-    max-height: 90%;
-    margin: 0;
-    padding: 0;
-    align-self: flex-end;
-    position: relative;
-}
+
 
 .meeting__button-wrapper {
     display: flex;

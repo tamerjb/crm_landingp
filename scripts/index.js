@@ -8,7 +8,7 @@ $(document).ready(function () {
             $("#header-nav").removeClass("hide-nav-bar");
         }
         //prevent page fom scrolling
-        //return false;
+        // return false;
     });
 
     // On click show menu on small screen
@@ -23,7 +23,7 @@ $(document).ready(function () {
         return false;
     });
 
-    var toggled = 0;
+    // var toggled = 0;
 
     // $('.menu-link').click(function () {
     //     if (toggled == 0) {
