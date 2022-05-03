@@ -7,11 +7,16 @@
     background-size: cover;
     background-color: #EBF1FF;
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     gap: 78px;
     overflow: visible;
-    z-index: -1;
+    z-index: -2;
     position: relative;
 }
 
@@ -62,6 +67,7 @@
 
 .meeting__button-schedule {
     border: 1px solid #0082FE;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 10px;
     font-weight: 600;
@@ -73,11 +79,19 @@
     background-color: #EBF1FF;
     padding: 13px 16px;
     cursor: pointer;
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
     transition: .3s linear;
+    z-index: 0;
+    position: relative;
 }
 
 .meeting__button-schedule:hover {
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
     transition: .3s linear;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -96,11 +110,17 @@
     color: #FFFFFF;
     background-color: #0082FE;
     padding: 13px 30px;
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
     transition: .3s linear;
 }
 
 .meeting__button-call:hover {
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
     transition: .3s linear;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
     cursor: pointer;
 }
