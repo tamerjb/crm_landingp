@@ -60,7 +60,7 @@
     align-items: baseline;
 }
 
-.meeting__button_schedule {
+.meeting__button-schedule {
     border: 1px solid #0082FE;
     box-sizing: border-box;
     border-radius: 10px;
@@ -76,16 +76,16 @@
     transition: .3s linear;
 }
 
-.meeting__button_schedule:hover {
+.meeting__button-schedule:hover {
     transition: .3s linear;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 .meeting__button-separator {
     margin: 0 20px;
 }
 
-.meeting__button_call {
+.meeting__button-call {
     border-radius: 10px;
     border: 1px solid #0082FE;
     font-weight: 600;
@@ -96,13 +96,13 @@
     color: #FFFFFF;
     background-color: #0082FE;
     padding: 13px 30px;
-    cursor: pointer;
     transition: .3s linear;
 }
 
-.meeting__button_call:hover {
+.meeting__button-call:hover {
     transition: .3s linear;
-    transform: scale(1.15);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 @media screen and (max-width:900px) {
