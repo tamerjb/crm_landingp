@@ -1,2 +1,2 @@
-# CRM Home Page
-#First realLife project  , with pure HTML/CSS used , and little help of javascript .
+## CRM Home Page
+**This project was built by pure HTML5 + CSS3**
